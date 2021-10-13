@@ -1,0 +1,41 @@
+{
+  "name": "eliancodes-bg",
+  "version": "0.0.1",
+  "description": "The ElianCodes background as a Houdini Paint Worklet",
+  "main": "index.js",
+  "module": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "package-check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElianVanCutsem/eliancodes-bg.git"
+  },
+  "bugs": {
+    "email": "hello@elian.codes",
+    "url": "https://github.com/ElianVanCutsem/eliancodes-bg/issues"
+  },
+  "keywords": [
+    "CSS",
+    "Houdini",
+    "Paint",
+    "API",
+    "worklet",
+    "JS"
+  ],
+  "author": {
+    "name": "Elian Van Cutsem",
+    "email": "hello@elian.codes",
+    "url": "https://www.elian.codes"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@skypack/package-check": "^0.2.2"
+  },
+  "files": [
+    "index.js"
+  ]
+}
