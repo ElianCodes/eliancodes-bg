@@ -12,7 +12,7 @@ npm i eliancodes-bg
 
 ### CDN
 
-Still waiting for the package to show up on any CDN. Preferably use this method since the package is very small and easy to use.
+[https://unpkg.com/eliancodes-bg@0.0.1/index.js](<https://unpkg.com/eliancodes-bg@0.0.1/index.js>)
 
 ## Usage
 
@@ -34,7 +34,7 @@ takes in a color and uses it to render the background
             }
         </style>
         <script>
-            CSS.paintWorklet.addModule('cdn_link_here')
+            CSS.paintWorklet.addModule('https://unpkg.com/eliancodes-bg@0.0.1/index.js')
         </script>
     </body>
 </html>
